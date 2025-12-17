@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #31162F;
+  --foreground: #DBD3DA;
+}
+
+@theme {
+  --color-preto: #31162F;
+  --color-branco: #DBD3DA;
+  --color-verde: #666D3B;
+}
+
+body {
+  color: var(--foreground);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
